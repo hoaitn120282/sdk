@@ -1,0 +1,6 @@
+name:id,type:increments
+name:user_id,type:integer,references:id,on:users,fillable
+name:role_id,type:integer,references:id,on:roles,fillable
+name:from_date,type:dateTime,fillable
+name:to_date,type:dateTime,fillable,nullable
+name:note,type:string,size:255,fillable,nullable

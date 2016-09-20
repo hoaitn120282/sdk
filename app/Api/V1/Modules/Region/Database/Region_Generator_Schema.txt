@@ -1,0 +1,5 @@
+name:id, type:increments
+name:name,type:string,size:255,fillable
+name:latitude,type:float,size:8,fillable,nullable
+name:longitude,type:float,size:8,fillable,nullable
+name:country_id,type:integer,references:id,on:countries,fillable
